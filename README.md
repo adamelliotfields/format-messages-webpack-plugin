@@ -1,0 +1,1 @@
+# Format Messages Webpack Plugin
