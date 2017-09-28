@@ -1,0 +1,30 @@
+{
+  "name": "format-messages-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Displays formatted Webpack messages like create-react-app.",
+  "author": "Adam Fields <adam.elliot.fields@gmail.com> (https://adamelliotfields.github.io)",
+  "homepage": "https://github.com/adamelliotfields/format-messages-webpack-plugin#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamelliotfields/format-messages-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamelliotfields/format-messages-webpack-plugin/issues"
+  },
+  "keywords": [
+    "webpack",
+    "create-react-app"
+  ],
+  "dependencies": {
+    "address": "^1.0.3",
+    "chalk": "^2.1.0",
+    "death": "^1.1.0",
+    "filesize": "^3.5.10",
+    "gzip-size": "^4.0.0",
+    "ora": "^1.3.0",
+    "strip-ansi": "^4.0.0",
+    "text-table": "^0.2.0"
+  }
+}
