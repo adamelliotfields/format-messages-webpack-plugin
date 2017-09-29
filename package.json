@@ -20,10 +20,11 @@
   "dependencies": {
     "address": "^1.0.3",
     "chalk": "^2.1.0",
-    "death": "^1.1.0",
     "filesize": "^3.5.10",
     "gzip-size": "^4.0.0",
+    "node-notifier": "^5.1.2",
     "ora": "^1.3.0",
+    "signal-exit": "^3.0.2",
     "strip-ansi": "^4.0.0",
     "text-table": "^0.2.0"
   }
