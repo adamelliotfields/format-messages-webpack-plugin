@@ -1,0 +1,8 @@
+# jetbrains
+.idea/
+
+# demo
+demo/
+
+# misc
+.DS_Store
