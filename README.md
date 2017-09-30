@@ -17,6 +17,8 @@ Webpack and Webpack Dev Server.
 
 ### Installation
 
+*Note: Please use at least Node `v6.11.3`.*
+
 ```sh
 npm install -D format-messages-webpack-plugin
 ```
@@ -152,6 +154,20 @@ loading spinners and the console will be cleared in between compilation lifecycl
 
 If you're not (e.g., Webstorm's script runner), you'll see regular log messages.
 
+### Issues
+Right now I cannot get notifications on any of my Windows 10 machines. There are a couple open
+issues in the `node-notifier` repo.
+
+If you hit `CTRL-C` during a production build, sometimes you have to hit it again to get your prompt
+back.
+
+### Acknowledgements
+ - Facebook for MIT licensing their code.
+ - `create-react-app` for setting the standard for React developer experience.
+ - `react-dev-utils` for giving us "under the hood" access to CRA.
+ - `webpack-messages` for giving me the idea to make this plugin.
+ - `webpack-notifier` for giving me the idea to incorporate system notifications.
+
 ### Screenshots
 
 **Error (console)**
@@ -173,17 +189,3 @@ If you're not (e.g., Webstorm's script runner), you'll see regular log messages.
 **Webstorm Console**
 
 ![webstorm console](https://raw.githubusercontent.com/adamelliotfields/format-messages-webpack-plugin/master/_screenshots/webstorm_console.png)
-
-### Issues
-Right now I cannot get notifications on any of my Windows 10 machines. There are a couple open
-issues in the `node-notifier` repo.
-
-If you hit `CTRL-C` during a production build, sometimes you have to hit it again to get your prompt
-back.
-
-### Acknowledgements
- - Facebook for MIT licensing their code.
- - `create-react-app` for setting the standard for React developer experience.
- - `react-dev-utils` for giving us "under the hood" access to CRA.
- - `webpack-messages` for giving me the idea to make this plugin.
- - `webpack-notifier` for giving me the idea to incorporate system notifications.
