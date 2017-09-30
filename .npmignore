@@ -2,7 +2,10 @@
 .idea/
 
 # demo
-demo/
+_demo/
+
+# screenshots
+_screenshots/
 
 # misc
 .DS_Store
