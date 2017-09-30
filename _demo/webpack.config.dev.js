@@ -77,7 +77,7 @@ module.exports = {
   },
 
   plugins: [
-    new FormatMessagesWebpackPlugin(),
+    new FormatMessagesWebpackPlugin({ notifications: true }),
     new HTMLWebpackPlugin({
       inject: 'body',
       template: path.join(__dirname, 'src', 'templates', 'index.ejs'),
