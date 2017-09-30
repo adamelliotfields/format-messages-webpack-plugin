@@ -75,7 +75,7 @@ const formatter = (results) => {
   });
 
   if (reportContainsErrorRuleIDs) {
-    output += `Search for the ${chalk.yellow('keywords')} to learn more about each error.\nTo ignore, add ${chalk.gray('// eslint-disable-next-line')} to the line before.`;
+    output += `To ignore, add ${chalk.gray('// eslint-disable-next-line')} to the line before.`;
   }
 
   return output;
