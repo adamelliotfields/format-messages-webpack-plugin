@@ -2,7 +2,7 @@
 > Displays formatted Webpack messages and system notifications like create-react-app and
 webpack-notifier.
 
-![demo](_screenshots/demo.gif)
+![demo](https://raw.githubusercontent.com/adamelliotfields/format-messages-webpack-plugin/master/_screenshots/demo.gif)
 
 I love `create-react-app` (CRA), but I also like making my own Webpack configurations. When you
 leave CRA-land, you give up many creature comforts like friendly shell logging and error messages
@@ -156,23 +156,23 @@ If you're not (e.g., Webstorm's script runner), you'll see regular log messages.
 
 **Error (console)**
 
-![console error](_screenshots/error_console.png)
+![console error](https://raw.githubusercontent.com/adamelliotfields/format-messages-webpack-plugin/master/_screenshots/error_console.png)
 
 **Error (notification)**
 
-![notification error](_screenshots/error_notification.png)
+![notification error](https://raw.githubusercontent.com/adamelliotfields/format-messages-webpack-plugin/master/_screenshots/error_notification.png)
 
 **Warning (console)**
 
-![console warning](_screenshots/warning_console.png)
+![console warning](https://raw.githubusercontent.com/adamelliotfields/format-messages-webpack-plugin/master/_screenshots/warning_console.png)
 
 **Warning (notification)**
 
-![notification warning](_screenshots/warning_notification.png)
+![notification warning](https://raw.githubusercontent.com/adamelliotfields/format-messages-webpack-plugin/master/_screenshots/warning_notification.png)
 
 **Webstorm Console**
 
-![webstorm console](_screenshots/webstorm_console.png)
+![webstorm console](https://raw.githubusercontent.com/adamelliotfields/format-messages-webpack-plugin/master/_screenshots/webstorm_console.png)
 
 ### Issues
 Right now I cannot get notifications on any of my Windows 10 machines. There are a couple open
