@@ -122,7 +122,7 @@ Read more about the [stats](https://webpack.js.org/configuration/stats/) and
 **Development (dev server)**
 
 The dev server messaging requires you to have a `devServer` property in your Webpack configuration
-with the host and port defined. If you have `https: true`, it can detect that; otherwise it will
+with the `host` and `port` defined. If you have `https: true`, it can detect that; otherwise it will
 default to `http`. Also, the dev server must be run in either `development` or `undefined` mode.
 
 **Production**
@@ -131,15 +131,17 @@ The production build messaging requires you to run your build script in `product
 required by React anyways). You also must have a `path` defined in the output object (you need to do
 this anyways).
 
+**Bail**
+
+If you set `bail: true` in your Webpack configuration, fatal errors like `ModuleNotFoundError` will
+cause Webpack to throw an exception, print the stack trace, and exit with a non-zero code. This will
+prevent the `done` event from firing, which in turn will prevent any custom messages or
+notifications from being displayed.
+
 **ESLint**
 
 The included formatter is a slightly modified version of the formatter from `react-dev-utils`. It is
-required for system notifications to display properly. If you've disabled notifications, you don't
-need to use it.
-
-Also, error messages are parsed slightly differently than warnings, so setting `emitWarning: true`
-ensures they will display properly in system notifications. Again, if you're not using
-notifications, you don't need to do this.
+required for linter warnings and errors to display properly.
 
 **Display Name**
 
