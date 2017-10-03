@@ -12,8 +12,6 @@ const APP_TITLE = 'Demo';
 const PUBLIC_PATH = '/';
 
 module.exports = {
-  bail: true,
-
   devtool: 'source-map',
 
   stats: 'none',
