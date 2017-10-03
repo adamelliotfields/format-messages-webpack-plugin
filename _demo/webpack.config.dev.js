@@ -70,6 +70,7 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           presets: ['react-latest'],
+          plugins: ['react-hot-loader/babel'],
           cacheDirectory: path.join(__dirname, '.cache')
         }
       }
