@@ -1,6 +1,6 @@
 {
   "name": "format-messages-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Displays formatted Webpack messages and system notifications like create-react-app and webpack-notifier.",
   "author": "Adam Fields <adam.elliot.fields@gmail.com> (https://adamelliotfields.github.io)",
   "homepage": "https://github.com/adamelliotfields/format-messages-webpack-plugin#readme",
